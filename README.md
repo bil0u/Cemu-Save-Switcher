@@ -8,13 +8,13 @@ Simply run it with your favorite Powershell binary
 
 ### First run
 
-You will be asked to select your Cemu *mlc01* folder.
+You will be asked for a couple of things
 
-Then to input the nickname of the current owner of *mlc01/usr/save*
+1. Select your Cemu `mlc01` folder.
+2. Input the nickname of the current owner of `mlc01/usr/save`
+3. Add more users (you can do it later)
 
-You can add more user to handle now, or later.
-
-It will create an XML config file in the folder where the script resides
+It will create an XML config file storing these informations where the script resides
 
 ### Regular run
 
@@ -24,4 +24,4 @@ For the moment you only have two awesome options :
 
 ## How does it work ?
 
-When switching a user, the script simply renames the *save* folder to *save_<current_user_nickname>* and *save_<selected_user_nickname>* to *save*
+When switching a user, the script simply renames the `save` folder to `save_<CurrentUser>` and `save_<SelectedUser>` to `save`
